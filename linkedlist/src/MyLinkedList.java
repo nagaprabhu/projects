@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class LinkedList {
+public class MyLinkedList {
 
     class node{
         int data;
@@ -16,7 +16,7 @@ public class LinkedList {
     private node tail;
     private int size;
 
-    LinkedList(){
+    MyLinkedList(){
         head=null;
         tail=null;
         size=0;
@@ -168,7 +168,7 @@ public class LinkedList {
     }
 
     public static void main(String[] args) {
-        LinkedList LL = new LinkedList();
+        MyLinkedList LL = new MyLinkedList();
         LL.InsertAtHead(10);
         LL.InsertAtTail(20);
         LL.InsertAtHead(30);
